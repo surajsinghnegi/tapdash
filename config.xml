@@ -1,10 +1,10 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.devsun.new2048game" version="1.5.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
-    <name>2048</name>
+<widget id="com.devsun.tapdash" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>Tap Dash</name>
     <description>
-       2048
+       Tap Dash
     </description>
-    <author email="globalpromotionhub@gmail.com" href="com.devsun.new2048game">
+    <author email="globalpromotionhub@gmail.com" href="com.devsun.tapdash">
         Devsun
     </author>
     <content src="index.html" />

@@ -22,6 +22,14 @@
 
     <!-- Stylesheets -->
  
+    <link href="css/ionicons.min.css" media="all" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/swipebox.min.css">
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
   <style type="text/css">
     * {
       padding: 0;
@@ -47,6 +55,21 @@
 
 <body>
    
+
+     <!-- Main Container -->
+    <div id="main" class="main">
+
+   
+      <!-- Toolbar -->
+      <div id="toolbar" class="primary-color z-depth-1">
+        <div class="open-left" id="open-left" data-activates="slide-out-left">
+          <i class="ion-android-menu"></i>
+        </div>
+        <h1 class="title">Tap Dash </h1>
+       
+      </div>
+   
+      <div class="page animated fadein">
     <!-- share button -->
 
 
@@ -69,6 +92,51 @@
       <!-- End of Page Contents -->
 
 
+      </div> 
+      <!-- End of Page Contents -->
+
+      <!-- sidebar -->
+             <ul id="slide-out-left" class="side-nav collapsible">
+        <li class="sidenav-avatar bg-material">
+          <div class="opacity-overlay-gradient"></div>
+        
+        </li>
+       <!--  <li>
+          <div class="collapsible-header waves-effect">
+          <a href="index.html"><i class="ion-android-home"></i>Home</a>
+          </div>
+        </li> -->
+         <li>
+          <div class="collapsible-header waves-effect">
+            <a href="#" onClick="otherShare()"> <i class="ion-android-share-alt"></i>Share</a>
+          </div>
+        </li> 
+        <li>
+
+          <div class="collapsible-header waves-effect">
+            <a href="https://play.google.com/store/apps/details?id=com.devsun.tapdash"  target="_self"> <i class="ion-android-playstore"></i>Rate</a>
+          </div>
+        </li>
+        <li>
+          <div class="collapsible-header waves-effect">
+            <a href="mailto:globalpromotionhub@gmail.com"  target="_self"> <i class="ion-android-list"></i>Feedback</a>
+          </div>
+        </li>
+   
+        <li>
+          <div class="collapsible-header waves-effect">
+           <a href="https://play.google.com/store/apps/developer?id=Devsun" target="_self"> <i class="ion-android-apps"></i>More apps</a>
+          </div> 
+        </li>
+      </ul>
+
+      <!-- Sidebars -->
+      <!-- Left Sidebar -->
+        
+    </div>
+
+  
+
 
       <!--   <div>
              <a href="aboutus.html">about</a>
@@ -81,7 +149,19 @@
  -->
   
 
-
+  <!-- Scripts -->
+    <script src="js/vendor/jquery-2.1.0.min.js"></script>
+    <script src="js/helper.js"></script>
+    <script src="js/vendor/HeadsUp.js"></script>
+    <script src="js/vendor/jquery.smoothState.js"></script>
+    <!-- <script src="js/vendor/chart.min.js"></script> -->
+    <script src="js/vendor/jquery.mixitup.min.js"></script>
+    <script src="js/vendor/jquery.swipebox.min.js"></script>
+    <script src="js/vendor/masonry.min.js"></script>
+    <script src="js/vendor/swiper.min.js"></script>
+    <script src="js/vendor/materialize.min.js"></script>
+    <script src="js/main.js"></script>
+    <!-- <script src="js/vendor/modernizr-2.7.1.min.js"></script> -->
 
      <script type="text/javascript" charset="utf-8" src="cordova.js"></script>  
     <script type="text/javascript" src="js/script.js"></script>

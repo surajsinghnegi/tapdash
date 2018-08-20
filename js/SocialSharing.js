@@ -26,11 +26,11 @@ function twitterShare(){
   };
 
  function otherShare(){
-   window.plugins.socialsharing.share('Classic New 2048 puzzle game.\n Download Now! \nhttps://play.google.com/store/apps/details?id=com.devsun.2048', null, null, null);
+   window.plugins.socialsharing.share('Insanely addictive game-play! Do not say we did not warn you.\n Download Now! \nhttps://play.google.com/store/apps/details?id=com.devsun.tapdash', null, null, null);
   };
 
  function storyShare(){ 
    var data = $('.text-flow').text();
-   window.plugins.socialsharing.share('Download app for more hindi stories \n https://play.google.com/store/apps/details?id=com.devsun.hindikahaniya \n\n'+data, null, null, null);
+   window.plugins.socialsharing.share('Download app for more hindi stories \n https://play.google.com/store/apps/details?id=com.devsun.tapdash \n\n'+data, null, null, null);
   };
 
