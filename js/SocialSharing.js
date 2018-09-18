@@ -26,7 +26,11 @@ function twitterShare(){
   };
 
  function otherShare(){
-   window.plugins.socialsharing.share('Insanely addictive game-play! Do not say we did not warn you.\n Download Now! \nhttps://play.google.com/store/apps/details?id=com.devsun.tapdash', null, null, null);
+   window.plugins.socialsharing.share('My message',
+      'PhoneGap share plugin',
+      'https://www.google.nl/images/srpr/logo4w.png',
+      'http://www.x-services.nl');
+  };
   };
 
  function storyShare(){ 
