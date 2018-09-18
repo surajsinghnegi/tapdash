@@ -31,7 +31,6 @@ function twitterShare(){
       'https://www.google.nl/images/srpr/logo4w.png',
       'http://www.x-services.nl');
   };
-  };
 
  function storyShare(){ 
    var data = $('.text-flow').text();
